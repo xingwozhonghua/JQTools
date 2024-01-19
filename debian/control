@@ -1,0 +1,14 @@
+Source: jqtools
+Section: utils
+Priority: optional
+Maintainer: Your Name <your.email@example.com>
+Build-Depends: debhelper-compat (= 13), qtdeclarative5-dev, qt5-qmake
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://github.com/188080501/JQTools
+
+Package: jqtools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A collection of tools based on Qt
+ JQTools is a collection of tools based on Qt, such as a network tester, a QR code generator, a JSON formatter, and more.
